@@ -1,4 +1,4 @@
-package thread.sleepingBartender;
+package thread.sleepingBartenderJoin;
 
 import java.util.concurrent.TimeUnit;
 
@@ -20,7 +20,7 @@ class Customer implements Runnable {
             TimeUnit.SECONDS.sleep(waitTime);
 
         } catch (InterruptedException e) {
-            System.out.println(name + "gets interrupted");
+            System.out.println(name + " gets interrupted");
             return;
         }
         System.out.println(name + " calls bartender");

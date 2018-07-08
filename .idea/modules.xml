@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-concurrency.iml" filepath="$PROJECT_DIR$/java-concurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-concurrency_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-concurrency_main.iml" group="java-concurrency" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-concurrency_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-concurrency_test.iml" group="java-concurrency" />
     </modules>
   </component>
 </project>
