@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f29e934-7062-4133-a550-ef14c272a6ac" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java-concurrency_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/java-concurrency_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/dateFormatter/shared/DateFormatterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/dateFormatter/shared/DatePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/dateFormatter/threadLocal/DateFormatterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/dateFormatter/threadLocal/DatePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/goodbyeWorld/Kenny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/goodbyeWorld/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/sleepingBartenderJoin/Bartender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/sleepingBartenderJoin/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/sleepingBartenderJoin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/Arbiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/BarSimulatorDrinkCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/Arbiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/BarSimulatorDrinkCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable/Arbiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable/BarSimulatorDrinkCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainRaceConditionFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-concurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-concurrency.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/thread/sleepingBartender/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/thread/sleepingBartender/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/thread/sleepingBartender/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/sleepingBartender/Customer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -40,75 +31,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/sleepingBartenderJoin/Customer.java">
+      <file leaf-file-name="MainRaceConditionFixed.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainRaceConditionFixed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kenny.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/goodbyeWorld/Kenny.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/goodbyeWorld/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="256">
+              <caret line="58" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="58" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#1261#1262#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#1452#1453#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateFormatterExample.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/dateFormatter/threadLocal/DateFormatterExample.java">
+      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadLocal.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/ThreadLocal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="32" selection-start-line="32" selection-end-line="37" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatePrinter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/dateFormatter/threadLocal/DatePrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DatePrinter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/dateFormatter/shared/DatePrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="276">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,29 +58,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateFormatterExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/dateFormatter/shared/DateFormatterExample.java">
+      <file leaf-file-name="Main2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="48" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="48" />
+            <state relative-caret-position="79">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/thread/sleepingBartenderJoin/Main.java">
+      <file leaf-file-name="Arbiter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/Arbiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state relative-caret-position="142">
+              <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <file leaf-file-name="BarSimulatorDrinkCount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/BarSimulatorDrinkCount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="1324" column="22" selection-start-line="1324" selection-start-column="22" selection-end-line="1324" selection-end-column="22" />
+            <state relative-caret-position="156">
+              <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arbiter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/Arbiter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BarSimulatorDrinkCount.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/BarSimulatorDrinkCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BarSimulatorDrinkCount.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable/BarSimulatorDrinkCount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-89">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arbiter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable/Arbiter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="19" selection-start-line="19" selection-end-line="60" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -148,9 +148,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>`</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java/mutex/barSimulation</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -462,6 +474,30 @@
         <option value="$PROJECT_DIR$/src/main/java/thread/dateFormatter/threadLocal/DateFormatterExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/dateFormatter/shared/DateFormatterExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/thread/dateFormatter/shared/DatePrinter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sharedMemory/asynced/synced/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sharedMemory/asynced/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sharedMemory/synced/ProduceObserver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sharedMemory/synced/Consumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sharedMemory/synced/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sharedMemory/synced/Produce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sharedMemory/synced/Producer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainRaceCondition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulation/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainAutomic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainAtomic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainFixed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainRaceConditionFixed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/Arbiter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/BarSimulatorDrinkCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/firstAttempt/BarSimulatorDrinkCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/Arbiter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/BarSimulatorDrinkCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable/BarSimulatorDrinkCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable/Arbiter.java" />
       </list>
     </option>
   </component>
@@ -507,7 +543,64 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="mutex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mutex" type="462c0819:PsiDirectoryNode" />
+              <item name="arbiter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mutex" type="462c0819:PsiDirectoryNode" />
+              <item name="arbiter" type="462c0819:PsiDirectoryNode" />
+              <item name="firstAttempt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mutex" type="462c0819:PsiDirectoryNode" />
+              <item name="arbiter" type="462c0819:PsiDirectoryNode" />
+              <item name="fisInvariants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mutex" type="462c0819:PsiDirectoryNode" />
+              <item name="arbiter" type="462c0819:PsiDirectoryNode" />
+              <item name="hashtable" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mutex" type="462c0819:PsiDirectoryNode" />
+              <item name="barSimulation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mutex" type="462c0819:PsiDirectoryNode" />
+              <item name="barSimulationCount" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
@@ -516,36 +609,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="dateFormatter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="dateFormatter" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="dateFormatter" type="462c0819:PsiDirectoryNode" />
-              <item name="threadLocal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-concurrency" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-concurrency" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
-              <item name="goodbyeWorld" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -557,6 +620,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -564,9 +628,20 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable" />
+      <recent name="$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants" />
+      <recent name="$PROJECT_DIR$/src/main/java/sharedMemory/asynced" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mutex.arbiter.hashtable" />
+      <recent name="mutex.barSimulationCount" />
+      <recent name="mutex.barSimulation" />
       <recent name="thread.dateFormatter.shared" />
       <recent name="thread.sleepingBartenderJoin" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sharedMemory.synced" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -581,47 +656,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DateFormatterExample (1)">
-    <configuration name="DateFormatterExample (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.dateFormatter.shared.DateFormatterExample" />
+  <component name="RunManager" selected="Application.BarSimulatorDrinkCount">
+    <configuration name="BarSimulatorDrinkCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mutex.arbiter.firstAttempt.BarSimulatorDrinkCount" />
       <module name="java-concurrency_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.dateFormatter.shared.*" />
+          <option name="PATTERN" value="mutex.arbiter.firstAttempt.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="DateFormatterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.dateFormatter.threadLocal.DateFormatterExample" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mutex.barSimulationCount.Main1" />
       <module name="java-concurrency_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.dateFormatter.threadLocal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.goodbyeWorld.Main" />
-      <module name="java-concurrency_main" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.goodbyeWorld.*" />
+          <option name="PATTERN" value="mutex.barSimulationCount.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.sleepingBartenderJoin.Main" />
+      <option name="MAIN_CLASS_NAME" value="sharedMemory.unsynced.Main" />
       <module name="java-concurrency_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.sleepingBartenderJoin.*" />
+          <option name="PATTERN" value="sharedMemory.unsynced.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mutex.barSimulationCount.Main2" />
+      <module name="java-concurrency_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mutex.barSimulationCount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mutex.barSimulationCount.Main3" />
+      <module name="java-concurrency_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mutex.barSimulationCount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MainRaceConditionFixed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mutex.barSimulation.MainRaceConditionFixed" />
+      <module name="java-concurrency_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mutex.barSimulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -722,17 +819,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.DateFormatterExample" />
-      <item itemvalue="Application.DateFormatterExample (1)" />
+      <item itemvalue="Application.MainRaceConditionFixed" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.BarSimulatorDrinkCount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DateFormatterExample (1)" />
-        <item itemvalue="Application.DateFormatterExample" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BarSimulatorDrinkCount" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.MainRaceConditionFixed" />
       </list>
     </recent_temporary>
   </component>
@@ -761,21 +860,21 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.5088757" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.47781065" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="3" weight="0.32988167" />
+      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="8" visible="true" weight="0.39940828" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.39940828" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -800,9 +899,24 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sharedMemory/synced/Producer.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>DateFormatterExample.dateFormatter</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/sleepingBartender/Customer.java">
@@ -900,8 +1014,259 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/thread/dateFormatter/threadLocal/DateFormatterExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="65" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/unsynced/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/unsynced/Produce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/unsynced/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" lean-forward="true" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/synced/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/synced/ProduceObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/synced/Produce.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/unsynced/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/synced/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sharedMemory/synced/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="38" selection-start-line="38" selection-end-line="40" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulation/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainFixed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainAtomic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainRaceCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1279#1280#0" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1376#1377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/util/concurrent/Phaser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3324">
+          <caret line="260" column="13" selection-start-line="260" selection-start-column="13" selection-end-line="260" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/Arbiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulation/MainRaceConditionFixed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/barSimulationCount/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="19" selection-start-line="19" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/firstAttempt/BarSimulatorDrinkCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/Arbiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/fisInvariants/BarSimulatorDrinkCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable/Arbiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mutex/arbiter/hashtable/BarSimulatorDrinkCount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
