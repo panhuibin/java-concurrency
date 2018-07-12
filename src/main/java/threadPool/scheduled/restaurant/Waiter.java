@@ -1,17 +1,25 @@
-package signaling.restaurant.waitNotifyVersion;
+package threadPool.scheduled.restaurant;
 
 class Waiter implements Runnable {
     private final String name;
+    private final Kitchen kitchen;
     private Request currentRequest;
 
-    public Waiter(String name) {
+    public Waiter(String name, Kitchen kitchen) {
         this.name = name;
+        this.kitchen = kitchen;
     }
 
     private void waitForCustomerRequest() {
         synchronized (BarRestaurantSimulation.requests) {
+            System.out.println(name + " is waiting for customer request");
+            currentRequest = null;
+
             while (true) {
-                currentRequest = BarRestaurantSimulation.requests.poll();
+                try {
+                    currentRequest = BarRestaurantSimulation.requests.take();
+                } catch (InterruptedException e) {
+                }
                 if (currentRequest != null) {
                     break;
                 }
@@ -19,10 +27,6 @@ class Waiter implements Runnable {
                     if (BarRestaurantSimulation.closed) {
                         break;
                     }
-                }
-                try {
-                    BarRestaurantSimulation.requests.wait();
-                } catch (InterruptedException e) {
                 }
             }
         }
@@ -40,7 +44,15 @@ class Waiter implements Runnable {
     }
 
     private void serveCustomer() {
-        System.out.println(name + " is serving food");
+        System.out.println(name + " is waiting for kitchen to take the meal");
+        Request request = currentRequest;
+        kitchen.requestMeal(() -> {
+            System.out.println(name + " is bringing the meal over.");
+            request.setRequestBeingHandled();
+            synchronized (request) {
+                request.notify();
+            }
+        });
     }
 
     private void getCheck() {
@@ -50,10 +62,14 @@ class Waiter implements Runnable {
     @Override
     public void run() {
         System.out.println(name + " has shown up for work");
+
         while (!BarRestaurantSimulation.closed || BarRestaurantSimulation.numCustomerInBar.get() > 0) {
             waitForCustomerRequest();
-            if (currentRequest != null) {
-                switch (currentRequest.getRequestType()) {
+
+            if (currentRequest != null)
+            {
+                switch (currentRequest.getRequestType())
+                {
                     case Request.SEATING_REQUEST:
                         seatCustomer();
                         break;
@@ -67,13 +83,15 @@ class Waiter implements Runnable {
                         getCheck();
                         break;
                 }
-                synchronized (currentRequest) {
-                    currentRequest.setRequestBeingHandled(true);
-                    currentRequest.notify();
+                if(currentRequest.getRequestType() != Request.SERVE_REQUEST){
+                    currentRequest.setRequestBeingHandled();
+                    synchronized (currentRequest){
+                        currentRequest.notify();
+                    }
                 }
-            }
-
         }
-        System.out.println(name + " is going home");
+
     }
+        System.out.println(name +" is going home");
+}
 }
